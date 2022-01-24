@@ -1,0 +1,24 @@
+﻿<Window x:Class="Приложение_для_еды.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Приложение_для_еды"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550.697" Width="344.454" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,5,0.906,1.755">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="num" HorizontalAlignment="Left" Height="35" Margin="4,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Height="35" Margin="183,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Height="25" Margin="-1,63,0,0" VerticalAlignment="Top" Width="124" FontFamily="/Приложение для еды;component/#Pricedown Bl"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Height="23" Margin="178,64,0,0" VerticalAlignment="Top" Width="130" FontFamily="/Приложение для еды;component/#Pricedown Bl"/>
+        <Label Content="Добро пожаловать в ресторан Cluckin' Bell" HorizontalAlignment="Left" Height="27" Margin="2,2,0,0" VerticalAlignment="Top" Width="328" FontFamily="/Приложение для еды;component/#Pricedown Bl" FontSize="14"/>
+        <Button x:Name="ent" Content="Войти" HorizontalAlignment="Left" Height="24" Margin="120,88,0,0" VerticalAlignment="Top" Width="87" Click="ent_Click" FontFamily="/Приложение для еды;component/#Pricedown Bl"/>
+        
+        <Image Margin="0,123,0,1.641" Source="Image1.png" Stretch="Fill"  Opacity="0.7"/>
+
+    </Grid>
+</Window>
